@@ -2,7 +2,7 @@
   "name": "server-rails",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.3.0",
+    "@rails/webpacker": "^4.1.0",
     "babel-preset-react": "^6.24.1",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
