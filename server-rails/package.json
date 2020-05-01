@@ -6,9 +6,15 @@
     "babel-preset-react": "^6.24.1",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.1.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
