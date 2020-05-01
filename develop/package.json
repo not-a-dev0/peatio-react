@@ -4,7 +4,9 @@
     "start": "PORT=4200 roadhog server",
     "build": "roadhog build",
     "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "antd": "^3.2.3",
@@ -27,7 +29,8 @@
     "react-particles-js": "^2.1.0",
     "simpl-schema": "^1.4.2",
     "uniforms": "^1.23.0",
-    "uniforms-antd": "^1.23.0"
+    "uniforms-antd": "^1.23.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-plugin-dva-hmr": "^0.4.1",
@@ -41,5 +44,6 @@
     "husky": "^0.14.3",
     "redbox-react": "^1.4.3",
     "roadhog": "^2.0.0"
-  }
+  },
+  "snyk": true
 }
