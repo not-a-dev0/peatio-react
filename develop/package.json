@@ -15,7 +15,7 @@
     "client-sessions": "^0.8.0",
     "cookie-parser": "^1.4.3",
     "dva": "^2.1.0",
-    "jsonwebtoken": "^8.1.1",
+    "jsonwebtoken": "^9.0.0",
     "peatio-sdk": "^0.2.7",
     "rc-queue-anim": "^1.4.1",
     "rc-tween-one": "^1.7.3",
