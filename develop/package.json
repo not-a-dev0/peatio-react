@@ -13,7 +13,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "client-sessions": "^0.8.0",
-    "cookie-parser": "^1.4.3",
+    "cookie-parser": "^1.4.7",
     "dva": "^2.1.0",
     "jsonwebtoken": "^8.1.1",
     "peatio-sdk": "^0.2.7",
